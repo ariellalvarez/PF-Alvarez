@@ -49,6 +49,9 @@ footer .footer__map {
 footer .footer__links {
   list-style: none;
 }
+footer .footer__contacto {
+  display: inline-block;
+}
 
 .main__debajoh1 {
   border: solid 2px goldenrod;
