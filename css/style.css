@@ -60,7 +60,7 @@ footer .footer__links {
 }
 
 .footer__contacto {
-  display: inline-block;
+  display: inline;
 }
 
 .cloud__main--padding {
