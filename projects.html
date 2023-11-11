@@ -120,11 +120,36 @@
 
 
     <footer>
-
-        <div class="container-fluid">
+        <div class="container-fluid cloud__main--padding">
             <div class="row">
                 <div class="col-lg-6">
-                    <p>Portfolio and Resume Website currently in development...</p>
+                    
+                    <h3>Contacto</h2>
+                    <br>
+                    <div class="footer__contacto">
+                    <form action="destino.php" method="post" enctype="">
+                        <label for="name" name="name" required>Nombre</label>
+                        <input type="text" name="name">
+                        <br>
+
+                        <label for="lastname" name="lastname" required>Apellido</label>
+                        <input type="text" name="lastname">
+                        <br>
+
+                        <label for="email" name="email" required>Email</label>
+                        <input type="email" name="email">
+                        <br>
+
+                        <label for="consulta" name="consulta" required>Consulta</label>
+                        <br>
+                        <textarea name="consulta" id="" cols="30" rows="5"></textarea>
+                        <br>
+
+                        <input type="submit" value="Enviar">
+
+                    </form>
+                    </div>
+
                 </div>
                 <div class="col-lg-4">
                     <ul class="footer__links">
@@ -146,7 +171,6 @@
 
 
     </footer>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
